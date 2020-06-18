@@ -1,17 +1,30 @@
-/* https://htmlcolorcodes.com/es/ */
+/* https://www.youtube.com/watch?v=SKkKLi1wAos&list=PLhSj3UTs2_yU0fGoS1bjpHqky4kCEmTbR&index=5 */
 
-/* h1 {
-    color:rgb(53, 131, 44)
+
+/* modelo de caja */
+
+/* h1,a,div,p {
+    background: #ff8000;
 } */
 
-
-/*esta es la forma mas utilizada pero no se le puede dar transparencia*/
-h1 {
-    color:#313B9D
-}
-
+/* div {
+    width:500px;
+    background: #ff8000;
+} */
 /* 
-rgba el ultimo valor indica una transparencia  */
- h2 {
-    color:rgba(53, 131, 44 , .5)
+div {
+    width:50%;
+    height:200px ;/*generalmente no se utiliza la propiedad height*/
+  /*  background: #ff8000;
+    margin: 20px;/*seria 20px de margen en todos lados
+} */
+
+div {
+    width:300px;
+    background: #ff8000;
+    margin: 20px  50px;/*seria 20px hacia arriba y abajo y 50px hacia los lados*/
+    padding: 30px;/*crea un margen interno */
+    border:10px solid #000 ;
+    /*border :10px dotted #000   // realiza el marco punteado*/
+    display: inline-block;
 }
