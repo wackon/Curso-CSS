@@ -1,30 +1,51 @@
-/* https://www.youtube.com/watch?v=SKkKLi1wAos&list=PLhSj3UTs2_yU0fGoS1bjpHqky4kCEmTbR&index=5 */
+/* 
+body {
+    background:url(../fondo.jpg) ;
+} */
 
 
-/* modelo de caja */
+/* body {
+    background:url(../fondo.jpg) ;
+    background-repeat: ;
+} */
 
-/* h1,a,div,p {
-    background: #ff8000;
+/* body {
+    background:url(../fondo.jpg) ;
+    background-repeat:no-repeat ;
+} */
+
+/* body {
+    background:url(../fondo.jpg) ;
+    background-repeat:repeat-x ;
+} */
+/* 
+body {
+    background:url(../fondo.jpg) ;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    color: red
 } */
 
 /* div {
-    width:500px;
-    background: #ff8000;
-} */
-/* 
-div {
-    width:50%;
-    height:200px ;/*generalmente no se utiliza la propiedad height*/
-  /*  background: #ff8000;
-    margin: 20px;/*seria 20px de margen en todos lados
-} */
+    /* background-color: orangered; */
+    /* background: url(../fondo.jpg);
+    height:300px ;
+  
+} */ 
 
-div {
-    width:300px;
-    background: #ff8000;
-    margin: 20px  50px;/*seria 20px hacia arriba y abajo y 50px hacia los lados*/
-    padding: 30px;/*crea un margen interno */
-    border:10px solid #000 ;
-    /*border :10px dotted #000   // realiza el marco punteado*/
-    display: inline-block;
+
+
+body {
+    background:url(../fondo.jpg) ;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    color: red;
+    /* background-position:50% 0 ; */
+    /* background-position:500px 200px ; */
+    /* background-position:center ; Centra en el documento  */
+    background-position:center 0 ; /* Centra en el documento pero no se desplaza en y*/
+
+
+
+
 }
