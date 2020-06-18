@@ -1,25 +1,17 @@
-/* body {
-    font-size:16px ;
-}
-div {
-    font-size:20px ;
-}
-div p{
-    font-size: 1em;
+/* https://htmlcolorcodes.com/es/ */
+
+/* h1 {
+    color:rgb(53, 131, 44)
 } */
 
-body {
-    font-size: 16px;
+
+/*esta es la forma mas utilizada pero no se le puede dar transparencia*/
+h1 {
+    color:#313B9D
 }
 
-/* div {
-    background: #000;
-    color:#fff;
-    width:100px;
-} */
-
-div {
-    background: #000;
-    color:#fff;
-    width:50%;
+/* 
+rgba el ultimo valor indica una transparencia  */
+ h2 {
+    color:rgba(53, 131, 44 , .5)
 }
